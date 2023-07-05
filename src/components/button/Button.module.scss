@@ -1,0 +1,124 @@
+.button {
+  height: 40px;
+  padding: 0 1rem;
+
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  box-shadow: 0px 4px 10px #1321350d;
+  border-radius: 20px;
+
+  &:hover {
+    box-shadow: 0px 4px 10px #4b84cb26;
+  }
+
+  // Variants
+  &.filled {
+    border: 1px solid #1977ef;
+    background-color: #1977ef;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: #1977ef;
+    }
+  }
+
+  &.filledDark {
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color: #132135;
+
+    &:hover {
+      background-color: #132135;
+      color: #f2f2f2;
+    }
+  }
+
+  &.outlinedDark {
+    border: 2px solid #132135;
+    background-color: white;
+    color: #132135;
+
+    &:hover {
+      background-color: #132135;
+      color: white;
+    }
+  }
+
+  &.outlined {
+    border: 1px solid #1977ef;
+    background-color: white;
+    color: #1977ef;
+
+    &:hover {
+      background-color: #1977ef;
+      color: white;
+    }
+  }
+
+  &.outlinedClose {
+    border: 1px solid #cc0e69;
+    background-color: white;
+    color: #cc0e69;
+
+    &:hover {
+      background-color: #cc0e69;
+      color: white;
+    }
+  }
+
+  &.filledClose {
+    border: 1px solid #cc0e69;
+    background-color: #cc0e69;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: #cc0e69;
+    }
+  }
+
+  &.underlined {
+    padding: 0;
+
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+    color: #0071f9;
+
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  &.borderless {
+    padding: 0;
+
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #0071f9;
+
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  // Disabled
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,21 @@
+.header {
+  background: pink;
+  padding: 10px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+      font-size: 16px;
+      display: flex;
+
+      &-item{
+        padding: 0 20px;
+        color: blue;
+      }
+      
+    }
+  }
+}
