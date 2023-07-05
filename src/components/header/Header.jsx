@@ -9,9 +9,9 @@ const Header = () => {
       <div className={styles.container}>
         <span className={styles.logo}>logo</span>
         <div className={styles.menu}>
-          <h1 className={styles["menu-item"]}>test1</h1>
-          <h1 className={styles["menu-item"]}>test2</h1>
-          <h1 className={styles["menu-item"]}>test3</h1>
+          <h1 className="text-3xl font-bold underline">test1</h1>
+          <h1 className="font-bold underline">test2</h1>
+          <h1 className="text-3xl font-bold">test3</h1>
         </div>
       </div>
     </div>
